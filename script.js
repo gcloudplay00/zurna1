@@ -42,7 +42,7 @@ const galleries = {
         ]
     },
     'karışık': {
-        title: 'Karışık',
+        title: 'Foto Galeri',
         images: [
             '2_1828378410187258.jpg',
             'images.jpeg',
