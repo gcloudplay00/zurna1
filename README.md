@@ -1,55 +1,73 @@
-# Mustafa Aktaş Müzik Aletleri Website
+# Welcome to your Lovable project
 
-A modern, responsive static website for a traditional musical instruments craftsman and seller.
+## Project info
 
-## Features
+**URL**: https://lovable.dev/projects/a0b28c0a-2e8e-4b6e-9bd7-7c9d30c228cf
 
-- **Hero Section**: Welcoming title and description about Mustafa Aktaş
-- **Dynamic Image Galleries**: Four categories (Zurnalar, Meyler, Balabanlar, Karışık)
-- **Contact Information**: Phone and email details
-- **WhatsApp Integration**: Fixed button for direct WhatsApp contact
-- **Responsive Design**: Mobile-friendly layout
-- **Modern Styling**: Warm color palette inspired by wood and nature
-- **Interactive Features**: Image zoom functionality, smooth scrolling
+## How can I edit this code?
 
-## File Structure
+There are several ways of editing your application.
 
+**Use Lovable**
+
+Simply visit the [Lovable Project](https://lovable.dev/projects/a0b28c0a-2e8e-4b6e-9bd7-7c9d30c228cf) and start prompting.
+
+Changes made via Lovable will be committed automatically to this repo.
+
+**Use your preferred IDE**
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
-Zurna-sitesi/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styling
-├── script.js           # JavaScript functionality
-├── README.md           # This file
-├── zurnalar/           # Zurna images
-├── meyler/             # Mey images
-├── balabanlar/         # Balaban images
-└── karışık/            # Mixed instruments images
-```
 
-## Technologies Used
+**Edit a file directly in GitHub**
 
-- HTML5
-- CSS3 (with Flexbox and Grid)
-- Vanilla JavaScript
-- Responsive Design
-- Modern CSS animations
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## How to Use
+**Use GitHub Codespaces**
 
-1. Open `index.html` in a web browser
-2. The website will automatically load all images from the respective folders
-3. Click on any image to view it in full-screen mode
-4. Use the WhatsApp button to contact directly
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## Customization
+## What technologies are used for this project?
 
-- Update contact information in `index.html`
-- Modify colors and styling in `styles.css`
-- Add more images to the respective folders
-- Update image descriptions in `script.js`
+This project is built with:
 
-## Browser Support
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-- Modern browsers (Chrome, Firefox, Safari, Edge)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-- Internet Explorer 11+ (with reduced functionality)
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/a0b28c0a-2e8e-4b6e-9bd7-7c9d30c228cf) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
